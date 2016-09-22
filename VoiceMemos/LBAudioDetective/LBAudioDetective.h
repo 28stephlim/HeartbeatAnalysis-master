@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AudioToolbox/AudioToolbox.h>
-    
+
 #import "LBAudioDetectiveFingerprint.h"
 
 extern const OSStatus kLBAudioDetectiveArgumentInvalid;

@@ -37,9 +37,13 @@
 		CF0174141D7D61DF007217AB /* Apex Supine Single S1 S2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */; };
 		CF0174151D7D61DF007217AB /* Apex Supine Split S1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */; };
 		CF26EF2F1D8414D000930B07 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF2E1D8414D000930B07 /* OutputViewController.swift */; };
-		CF86825B1D632C63000FC9F6 /* LBAudioDetective.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8682551D632C63000FC9F6 /* LBAudioDetective.m */; };
-		CF86825C1D632C63000FC9F6 /* LBAudioDetectiveFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8682571D632C63000FC9F6 /* LBAudioDetectiveFingerprint.m */; };
-		CF86825D1D632C63000FC9F6 /* LBAudioDetectiveFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8682591D632C63000FC9F6 /* LBAudioDetectiveFrame.m */; };
+		CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF701D86C7AF00930B07 /* LBAudioDetective.m */; };
+		CF26EF761D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF721D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m */; };
+		CF26EF771D86C7AF00930B07 /* LBAudioDetectiveFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF741D86C7AF00930B07 /* LBAudioDetectiveFrame.m */; };
+		CF6CF0EE1D8823B7004B91D4 /* FDWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6CF0ED1D8823B7004B91D4 /* FDWaveformView.swift */; };
+		CF6CF0F11D88274F004B91D4 /* FDWaveformView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CF0F01D88274F004B91D4 /* FDWaveformView.framework */; };
+		CF6CF0F21D8828A4004B91D4 /* FDWaveformView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CF0F01D88274F004B91D4 /* FDWaveformView.framework */; };
+		CF6CF0F31D8828A4004B91D4 /* FDWaveformView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6CF0F01D88274F004B91D4 /* FDWaveformView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF8682631D632D1A000FC9F6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF86825E1D632D1A000FC9F6 /* Accelerate.framework */; };
 		CF8682641D632D1A000FC9F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF86825F1D632D1A000FC9F6 /* AudioToolbox.framework */; };
 		CF8682661D632D1A000FC9F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8682611D632D1A000FC9F6 /* AVFoundation.framework */; };
@@ -58,6 +62,20 @@
 			remoteInfo = VoiceMemos;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF6CF0F41D8828A4004B91D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF6CF0F31D8828A4004B91D4 /* FDWaveformView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0588E348A241A320B4A31BFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,12 +115,14 @@
 		CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Single S1 S2.caf"; sourceTree = "<group>"; };
 		CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Split S1.caf"; sourceTree = "<group>"; };
 		CF26EF2E1D8414D000930B07 /* OutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
-		CF8682541D632C63000FC9F6 /* LBAudioDetective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBAudioDetective.h; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetective.h"; sourceTree = "<group>"; };
-		CF8682551D632C63000FC9F6 /* LBAudioDetective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBAudioDetective.m; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetective.m"; sourceTree = "<group>"; };
-		CF8682561D632C63000FC9F6 /* LBAudioDetectiveFingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBAudioDetectiveFingerprint.h; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetectiveFingerprint.h"; sourceTree = "<group>"; };
-		CF8682571D632C63000FC9F6 /* LBAudioDetectiveFingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBAudioDetectiveFingerprint.m; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetectiveFingerprint.m"; sourceTree = "<group>"; };
-		CF8682581D632C63000FC9F6 /* LBAudioDetectiveFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBAudioDetectiveFrame.h; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetectiveFrame.h"; sourceTree = "<group>"; };
-		CF8682591D632C63000FC9F6 /* LBAudioDetectiveFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBAudioDetectiveFrame.m; path = "../../VoiceMemos-master/VoiceMemos/LBAudioDetective/LBAudioDetectiveFrame.m"; sourceTree = "<group>"; };
+		CF26EF6F1D86C7AF00930B07 /* LBAudioDetective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetective.h; sourceTree = "<group>"; };
+		CF26EF701D86C7AF00930B07 /* LBAudioDetective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetective.m; sourceTree = "<group>"; };
+		CF26EF711D86C7AF00930B07 /* LBAudioDetectiveFingerprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetectiveFingerprint.h; sourceTree = "<group>"; };
+		CF26EF721D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetectiveFingerprint.m; sourceTree = "<group>"; };
+		CF26EF731D86C7AF00930B07 /* LBAudioDetectiveFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetectiveFrame.h; sourceTree = "<group>"; };
+		CF26EF741D86C7AF00930B07 /* LBAudioDetectiveFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetectiveFrame.m; sourceTree = "<group>"; };
+		CF6CF0ED1D8823B7004B91D4 /* FDWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FDWaveformView.swift; path = ../FDWaveformView.swift; sourceTree = "<group>"; };
+		CF6CF0F01D88274F004B91D4 /* FDWaveformView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FDWaveformView.framework; sourceTree = "<group>"; };
 		CF86825E1D632D1A000FC9F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		CF86825F1D632D1A000FC9F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CF8682601D632D1A000FC9F6 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
@@ -118,11 +138,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8682671D632D1A000FC9F6 /* Foundation.framework in Frameworks */,
+				F245F3FAC841E7AA0942992B /* Pods.framework in Frameworks */,
+				CF6CF0F21D8828A4004B91D4 /* FDWaveformView.framework in Frameworks */,
+				CF6CF0F11D88274F004B91D4 /* FDWaveformView.framework in Frameworks */,
 				CF8682631D632D1A000FC9F6 /* Accelerate.framework in Frameworks */,
 				CF8682641D632D1A000FC9F6 /* AudioToolbox.framework in Frameworks */,
 				CF8682661D632D1A000FC9F6 /* AVFoundation.framework in Frameworks */,
-				CF8682671D632D1A000FC9F6 /* Foundation.framework in Frameworks */,
-				F245F3FAC841E7AA0942992B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +170,7 @@
 		C7C8773CC697D8CB86499AED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF6CF0F01D88274F004B91D4 /* FDWaveformView.framework */,
 				CF86825E1D632D1A000FC9F6 /* Accelerate.framework */,
 				CF86825F1D632D1A000FC9F6 /* AudioToolbox.framework */,
 				CF8682601D632D1A000FC9F6 /* AudioUnit.framework */,
@@ -181,8 +204,8 @@
 		CD1273B11AA7EB5F00D9D393 /* VoiceMemos */ = {
 			isa = PBXGroup;
 			children = (
+				CF26EF6E1D86C7AF00930B07 /* LBAudioDetective */,
 				CF0174071D7D61DE007217AB /* heartbeats */,
-				CF86825A1D632C63000FC9F6 /* LBAudioDetective */,
 				CD1273D41AA7EBDC00D9D393 /* Controller */,
 				CD1273EE1AA7EBE800D9D393 /* Model */,
 				CD1273E31AA7EBE300D9D393 /* View */,
@@ -227,6 +250,7 @@
 		CD1273D41AA7EBDC00D9D393 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF6CF0ED1D8823B7004B91D4 /* FDWaveformView.swift */,
 				CD1273D91AA7EBDC00D9D393 /* SplitViewController.swift */,
 				CD1273D51AA7EBDC00D9D393 /* BaseTableViewController.swift */,
 				CD1273DA1AA7EBDC00D9D393 /* VoiceSearchResultsController.swift */,
@@ -292,21 +316,30 @@
 			path = heartbeats;
 			sourceTree = "<group>";
 		};
-		CF86825A1D632C63000FC9F6 /* LBAudioDetective */ = {
+		CF26EF6E1D86C7AF00930B07 /* LBAudioDetective */ = {
 			isa = PBXGroup;
 			children = (
-				CF8682541D632C63000FC9F6 /* LBAudioDetective.h */,
-				CF8682551D632C63000FC9F6 /* LBAudioDetective.m */,
-				CF8682561D632C63000FC9F6 /* LBAudioDetectiveFingerprint.h */,
-				CF8682571D632C63000FC9F6 /* LBAudioDetectiveFingerprint.m */,
-				CF8682581D632C63000FC9F6 /* LBAudioDetectiveFrame.h */,
-				CF8682591D632C63000FC9F6 /* LBAudioDetectiveFrame.m */,
+				CF26EF6F1D86C7AF00930B07 /* LBAudioDetective.h */,
+				CF26EF701D86C7AF00930B07 /* LBAudioDetective.m */,
+				CF26EF711D86C7AF00930B07 /* LBAudioDetectiveFingerprint.h */,
+				CF26EF721D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m */,
+				CF26EF731D86C7AF00930B07 /* LBAudioDetectiveFrame.h */,
+				CF26EF741D86C7AF00930B07 /* LBAudioDetectiveFrame.m */,
 			);
-			name = LBAudioDetective;
-			path = "../../LBAudioDetective-master/LBAudioDetective";
+			path = LBAudioDetective;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF6CF0891D86E810004B91D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		CD1273AE1AA7EB5F00D9D393 /* VoiceMemos */ = {
@@ -314,11 +347,13 @@
 			buildConfigurationList = CD1273CE1AA7EB5F00D9D393 /* Build configuration list for PBXNativeTarget "VoiceMemos" */;
 			buildPhases = (
 				EEB3F7DEB8C8B9C13473DF09 /* Check Pods Manifest.lock */,
-				CD1273AB1AA7EB5F00D9D393 /* Sources */,
 				CD1273AC1AA7EB5F00D9D393 /* Frameworks */,
+				CD1273AB1AA7EB5F00D9D393 /* Sources */,
 				CD1273AD1AA7EB5F00D9D393 /* Resources */,
 				44451EC73D76A00D197C4C76 /* Embed Pods Frameworks */,
 				2CD6C27099002B0262CCA0AB /* Copy Pods Resources */,
+				CF6CF0891D86E810004B91D4 /* Headers */,
+				CF6CF0F41D8828A4004B91D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -471,23 +506,24 @@
 			files = (
 				CD1273EC1AA7EBE300D9D393 /* VoiceTableViewCell.swift in Sources */,
 				CD1273FF1AA7EBF600D9D393 /* AudioSessionHelper.swift in Sources */,
-				CF86825C1D632C63000FC9F6 /* LBAudioDetectiveFingerprint.m in Sources */,
 				CD1273DC1AA7EBDC00D9D393 /* BaseTableViewController.swift in Sources */,
+				CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */,
 				CD1273FB1AA7EBEC00D9D393 /* KMOverlayPresentationController.swift in Sources */,
 				CD1273E01AA7EBDC00D9D393 /* SplitViewController.swift in Sources */,
-				CF86825D1D632C63000FC9F6 /* LBAudioDetectiveFrame.m in Sources */,
 				CF26EF2F1D8414D000930B07 /* OutputViewController.swift in Sources */,
 				CD1273E11AA7EBDC00D9D393 /* VoiceSearchResultsController.swift in Sources */,
-				CF86825B1D632C63000FC9F6 /* LBAudioDetective.m in Sources */,
 				CD1273FC1AA7EBEC00D9D393 /* KMOverlayTransitioner.swift in Sources */,
 				CD1273B51AA7EB5F00D9D393 /* AppDelegate.swift in Sources */,
+				CF26EF771D86C7AF00930B07 /* LBAudioDetectiveFrame.m in Sources */,
 				CD1273F41AA7EBE800D9D393 /* CoreDataStack.swift in Sources */,
 				CD1273DF1AA7EBDC00D9D393 /* RecordViewController.swift in Sources */,
+				CF6CF0EE1D8823B7004B91D4 /* FDWaveformView.swift in Sources */,
 				CD1273EB1AA7EBE300D9D393 /* KMVoiceRecordHUD.swift in Sources */,
 				CD1273F71AA7EBE800D9D393 /* VoiceMemos.xcdatamodeld in Sources */,
 				CD1273E91AA7EBE300D9D393 /* KMCircularProgressView.swift in Sources */,
 				CD1273DD1AA7EBDC00D9D393 /* DetailViewController.swift in Sources */,
 				CD1273F61AA7EBE800D9D393 /* Voice.swift in Sources */,
+				CF26EF761D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m in Sources */,
 				CD1273E21AA7EBDC00D9D393 /* VoicesTableViewController.swift in Sources */,
 				CD1273DE1AA7EBDC00D9D393 /* NoVoiceSelectedViewController.swift in Sources */,
 			);
@@ -620,8 +656,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/VoiceMemos/\"/**";
 				INFOPLIST_FILE = VoiceMemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jordanVoiceMemosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,8 +679,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/VoiceMemos/\"/**";
 				INFOPLIST_FILE = VoiceMemos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jordanVoiceMemosTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

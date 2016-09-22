@@ -325,8 +325,72 @@
                     <view key="view" contentMode="scaleToFill" id="hHT-1P-dYg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gC8-yT-kZM" customClass="FDWaveformView" customModule="VoiceMemos" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="560" height="252"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P27-zj-pyT">
+                                <rect key="frame" x="14" y="332" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvu-O5-bxu">
+                                <rect key="frame" x="14" y="361" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMR-Xw-MfE">
+                                <rect key="frame" x="14" y="391" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehW-X5-3ok">
+                                <rect key="frame" x="14" y="420" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLb-Fs-yrY">
+                                <rect key="frame" x="14" y="449" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfT-0I-aIm">
+                                <rect key="frame" x="14" y="478" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf9-qD-Shp">
+                                <rect key="frame" x="14" y="507" width="566" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FDn-XV-hAc" firstAttribute="top" secondItem="gC8-yT-kZM" secondAttribute="bottom" constant="300" id="Lkk-uF-Vco"/>
+                            <constraint firstItem="gC8-yT-kZM" firstAttribute="top" secondItem="tZX-OQ-7SI" secondAttribute="bottom" id="LuR-eg-Y0v"/>
+                            <constraint firstItem="gC8-yT-kZM" firstAttribute="trailing" secondItem="hHT-1P-dYg" secondAttribute="trailingMargin" id="VfR-yv-Uns"/>
+                            <constraint firstItem="gC8-yT-kZM" firstAttribute="leading" secondItem="hHT-1P-dYg" secondAttribute="leadingMargin" id="hB3-49-IOu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Diagnosis1" destination="P27-zj-pyT" id="2eO-zn-pRQ"/>
+                        <outlet property="Diagnosis2" destination="Yvu-O5-bxu" id="Q4o-eM-Uom"/>
+                        <outlet property="Diagnosis3" destination="CMR-Xw-MfE" id="hG9-0F-dtU"/>
+                        <outlet property="Diagnosis4" destination="ehW-X5-3ok" id="bz2-ob-3FC"/>
+                        <outlet property="Diagnosis5" destination="fLb-Fs-yrY" id="Bqr-qT-leg"/>
+                        <outlet property="Diagnosis6" destination="zfT-0I-aIm" id="n0i-gz-1jC"/>
+                        <outlet property="Diagnosis7" destination="Lf9-qD-Shp" id="IX3-3U-HIb"/>
+                        <outlet property="waveform" destination="gC8-yT-kZM" id="VPw-uf-h1G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eW-mG-PsO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

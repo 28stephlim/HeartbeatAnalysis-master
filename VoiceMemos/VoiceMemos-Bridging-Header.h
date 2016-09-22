@@ -11,5 +11,7 @@
 
 #import "LBAudioDetective.h"
 #import "LBAudioDetectiveFrame.h"
+#import "waveformViewController.h"
+
 
 #endif /* VoiceMemos_Bridging_Header_h */
