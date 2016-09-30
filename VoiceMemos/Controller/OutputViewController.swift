@@ -23,7 +23,7 @@ class OutputViewController: UIViewController {
     @IBOutlet weak var waveform: FDWaveformView!
     var inputURL: NSURL!
     var supine = ["Apex Supine Early Sys Mur", "Apex Supine Holo Sys Mur", "Apex Supine Late Sys Mur", "Apex Supine Mid Sys Click", "Apex Supine Mid Sys Mur", "Apex Supine Single S1 S2", "Apex Supine Split S1"]
-    
+    var diagnosisname = String ()
     
     
     override func viewDidLoad() {
@@ -36,6 +36,15 @@ class OutputViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //preparing data for 2nd VC
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let VC2 : ConditionViewController = segue.destinationViewController as! ConditionViewController
+        VC2.highname = diagnosisname
+    
+    }
+    
+    
     
     override func viewDidAppear(animated: Bool) {
         
@@ -156,6 +165,7 @@ class OutputViewController: UIViewController {
 
                     }
                 }
+                 self.diagnosisname = type[maxLocationIndex!]
                 
                 switch maxLocationInt {
                 case 0:
@@ -181,6 +191,7 @@ class OutputViewController: UIViewController {
                 //diagnosisAlert.addAction(okButton)
                 //self.presentViewController(diagnosisAlert, animated: true, completion: nil)
                 
+               
             })
         }   
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77659CA1D9E273100C2EC81 /* ConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659C91D9E273100C2EC81 /* ConditionViewController.swift */; };
 		CD1273B51AA7EB5F00D9D393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */; };
 		CD1273BA1AA7EB5F00D9D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1273B81AA7EB5F00D9D393 /* Main.storyboard */; };
 		CD1273BC1AA7EB5F00D9D393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1273BB1AA7EB5F00D9D393 /* Images.xcassets */; };
@@ -81,6 +82,7 @@
 		0588E348A241A320B4A31BFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128F1C5D9E45D3DC19FD5ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		96A75660244B2C7958DDEEC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A77659C91D9E273100C2EC81 /* ConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionViewController.swift; sourceTree = "<group>"; };
 		CD1273AF1AA7EB5F00D9D393 /* VoiceMemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1273B31AA7EB5F00D9D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +167,20 @@
 				2128F1C5D9E45D3DC19FD5ED /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A77659C81D9E235900C2EC81 /* Apex Supine */ = {
+			isa = PBXGroup;
+			children = (
+				CF0174081D7D61DE007217AB /* Apex Supine Early Sys Mur.caf */,
+				CF0174091D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf */,
+				CF01740A1D7D61DF007217AB /* Apex Supine Late Sys Mur.caf */,
+				CF01740B1D7D61DF007217AB /* Apex Supine Mid Sys Click.caf */,
+				CF01740C1D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf */,
+				CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */,
+				CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */,
+			);
+			name = "Apex Supine";
 			sourceTree = "<group>";
 		};
 		C7C8773CC697D8CB86499AED /* Frameworks */ = {
@@ -259,6 +275,7 @@
 				CD1273D81AA7EBDC00D9D393 /* RecordViewController.swift */,
 				CD1273D71AA7EBDC00D9D393 /* NoVoiceSelectedViewController.swift */,
 				CF26EF2E1D8414D000930B07 /* OutputViewController.swift */,
+				A77659C91D9E273100C2EC81 /* ConditionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,13 +322,7 @@
 		CF0174071D7D61DE007217AB /* heartbeats */ = {
 			isa = PBXGroup;
 			children = (
-				CF0174081D7D61DE007217AB /* Apex Supine Early Sys Mur.caf */,
-				CF0174091D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf */,
-				CF01740A1D7D61DF007217AB /* Apex Supine Late Sys Mur.caf */,
-				CF01740B1D7D61DF007217AB /* Apex Supine Mid Sys Click.caf */,
-				CF01740C1D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf */,
-				CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */,
-				CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */,
+				A77659C81D9E235900C2EC81 /* Apex Supine */,
 			);
 			path = heartbeats;
 			sourceTree = "<group>";
@@ -394,7 +405,7 @@
 				TargetAttributes = {
 					CD1273AE1AA7EB5F00D9D393 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 97K2TH9YMT;
+						DevelopmentTeam = GCE8TBSYNC;
 					};
 					CD1273C31AA7EB5F00D9D393 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -506,6 +517,7 @@
 			files = (
 				CD1273EC1AA7EBE300D9D393 /* VoiceTableViewCell.swift in Sources */,
 				CD1273FF1AA7EBF600D9D393 /* AudioSessionHelper.swift in Sources */,
+				A77659CA1D9E273100C2EC81 /* ConditionViewController.swift in Sources */,
 				CD1273DC1AA7EBDC00D9D393 /* BaseTableViewController.swift in Sources */,
 				CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */,
 				CD1273FB1AA7EBEC00D9D393 /* KMOverlayPresentationController.swift in Sources */,
@@ -664,7 +676,7 @@
 				INFOPLIST_FILE = VoiceMemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jordanVoiceMemosTest;
+				PRODUCT_BUNDLE_IDENTIFIER = MonashUniversity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VoiceMemos/VoiceMemos-Bridging-Header.h";
@@ -687,7 +699,7 @@
 				INFOPLIST_FILE = VoiceMemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jordanVoiceMemosTest;
+				PRODUCT_BUNDLE_IDENTIFIER = MonashUniversity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VoiceMemos/VoiceMemos-Bridging-Header.h";
