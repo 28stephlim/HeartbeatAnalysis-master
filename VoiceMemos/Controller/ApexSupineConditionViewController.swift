@@ -1,27 +1,22 @@
 //
-//  ConditionViewController.swift
+//  ApexSupineConditionViewController.swift
 //  VoiceMemos
 //
-//  Created by Arnold Yong Cheng Yee on 30/09/2016.
+//  Created by Stephanie Lim on 04/10/2016.
 //  Copyright © 2016 Zhouqi Mo. All rights reserved.
 //
 
 import UIKit
 
-class ConditionViewController: UIViewController {
+class ApexSupineConditionViewController: UIViewController {
 
-    
-    @IBOutlet weak var namecond: UILabel!
-  
-    var highname = String()
+    @IBOutlet weak var labelname: UILabel!
+    var condition = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       
-        namecond.text = highname
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,6 +24,11 @@ class ConditionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(animated: Bool) {
+        
+        labelname.text = condition
+        
+    }
 
     /*
     // MARK: - Navigation

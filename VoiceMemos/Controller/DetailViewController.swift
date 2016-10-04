@@ -384,10 +384,11 @@ class DetailViewController: UIViewController {
             recordViewController.modalPresentationStyle = .Custom
             recordViewController.transitioningDelegate = overlayTransitioningDelegate
         }
+      
         
-        if segue.identifier == "Output" {
-            let outputViewController = segue.destinationViewController as! OutputViewController
-            
+        
+        if segue.identifier == "apexsepoutput" {
+            let apexsepoutputVC = segue.destinationViewController as! ApexSupineOutputViewController
             let url: NSURL = {
                 if self.recordingHasUpdates {
                     return self.tmpStoreURL
@@ -396,7 +397,7 @@ class DetailViewController: UIViewController {
                 }
             }()
         
-            outputViewController.inputURL = url
+            apexsepoutputVC.inputURL = url
         }
     }
     

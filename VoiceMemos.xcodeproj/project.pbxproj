@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A77659CA1D9E273100C2EC81 /* ConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659C91D9E273100C2EC81 /* ConditionViewController.swift */; };
+		A77659CC1D9E726D00C2EC81 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */; };
+		A77659CE1DA346C600C2EC81 /* ApexSupineOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */; };
+		A77659D71DA3672300C2EC81 /* ApexSupineConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */; };
 		CD1273B51AA7EB5F00D9D393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */; };
 		CD1273BA1AA7EB5F00D9D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1273B81AA7EB5F00D9D393 /* Main.storyboard */; };
 		CD1273BC1AA7EB5F00D9D393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1273BB1AA7EB5F00D9D393 /* Images.xcassets */; };
@@ -30,13 +32,6 @@
 		CD1273FB1AA7EBEC00D9D393 /* KMOverlayPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273F91AA7EBEC00D9D393 /* KMOverlayPresentationController.swift */; };
 		CD1273FC1AA7EBEC00D9D393 /* KMOverlayTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273FA1AA7EBEC00D9D393 /* KMOverlayTransitioner.swift */; };
 		CD1273FF1AA7EBF600D9D393 /* AudioSessionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273FE1AA7EBF600D9D393 /* AudioSessionHelper.swift */; };
-		CF01740F1D7D61DF007217AB /* Apex Supine Early Sys Mur.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF0174081D7D61DE007217AB /* Apex Supine Early Sys Mur.caf */; };
-		CF0174101D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF0174091D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf */; };
-		CF0174111D7D61DF007217AB /* Apex Supine Late Sys Mur.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740A1D7D61DF007217AB /* Apex Supine Late Sys Mur.caf */; };
-		CF0174121D7D61DF007217AB /* Apex Supine Mid Sys Click.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740B1D7D61DF007217AB /* Apex Supine Mid Sys Click.caf */; };
-		CF0174131D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740C1D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf */; };
-		CF0174141D7D61DF007217AB /* Apex Supine Single S1 S2.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */; };
-		CF0174151D7D61DF007217AB /* Apex Supine Split S1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */; };
 		CF26EF2F1D8414D000930B07 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF2E1D8414D000930B07 /* OutputViewController.swift */; };
 		CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF701D86C7AF00930B07 /* LBAudioDetective.m */; };
 		CF26EF761D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EF721D86C7AF00930B07 /* LBAudioDetectiveFingerprint.m */; };
@@ -82,7 +77,16 @@
 		0588E348A241A320B4A31BFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128F1C5D9E45D3DC19FD5ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		96A75660244B2C7958DDEEC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		A77659C91D9E273100C2EC81 /* ConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionViewController.swift; sourceTree = "<group>"; };
+		A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexSupineOutputViewController.swift; sourceTree = "<group>"; };
+		A77659CF1DA3527B00C2EC81 /* Early Systolic Murmur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Early Systolic Murmur.caf"; sourceTree = "<group>"; };
+		A77659D01DA3527B00C2EC81 /* Holosystolic Murmur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Holosystolic Murmur.caf"; sourceTree = "<group>"; };
+		A77659D11DA3527B00C2EC81 /* Late Systolic Murmur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Late Systolic Murmur.caf"; sourceTree = "<group>"; };
+		A77659D21DA3527B00C2EC81 /* Mid-Systolic Click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mid-Systolic Click.caf"; sourceTree = "<group>"; };
+		A77659D31DA3527B00C2EC81 /* Mid-Systolic Murmur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mid-Systolic Murmur.caf"; sourceTree = "<group>"; };
+		A77659D41DA3527B00C2EC81 /* Single S1 S2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single S1 S2.caf"; sourceTree = "<group>"; };
+		A77659D51DA3527B00C2EC81 /* Split S1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Split S1.caf"; sourceTree = "<group>"; };
+		A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexSupineConditionViewController.swift; sourceTree = "<group>"; };
 		CD1273AF1AA7EB5F00D9D393 /* VoiceMemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1273B31AA7EB5F00D9D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,13 +113,6 @@
 		CD1273F91AA7EBEC00D9D393 /* KMOverlayPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayPresentationController.swift; sourceTree = "<group>"; };
 		CD1273FA1AA7EBEC00D9D393 /* KMOverlayTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMOverlayTransitioner.swift; sourceTree = "<group>"; };
 		CD1273FE1AA7EBF600D9D393 /* AudioSessionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSessionHelper.swift; sourceTree = "<group>"; };
-		CF0174081D7D61DE007217AB /* Apex Supine Early Sys Mur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Early Sys Mur.caf"; sourceTree = "<group>"; };
-		CF0174091D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Holo Sys Mur.caf"; sourceTree = "<group>"; };
-		CF01740A1D7D61DF007217AB /* Apex Supine Late Sys Mur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Late Sys Mur.caf"; sourceTree = "<group>"; };
-		CF01740B1D7D61DF007217AB /* Apex Supine Mid Sys Click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Mid Sys Click.caf"; sourceTree = "<group>"; };
-		CF01740C1D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Mid Sys Mur.caf"; sourceTree = "<group>"; };
-		CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Single S1 S2.caf"; sourceTree = "<group>"; };
-		CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex Supine Split S1.caf"; sourceTree = "<group>"; };
 		CF26EF2E1D8414D000930B07 /* OutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
 		CF26EF6F1D86C7AF00930B07 /* LBAudioDetective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBAudioDetective.h; sourceTree = "<group>"; };
 		CF26EF701D86C7AF00930B07 /* LBAudioDetective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBAudioDetective.m; sourceTree = "<group>"; };
@@ -172,13 +169,13 @@
 		A77659C81D9E235900C2EC81 /* Apex Supine */ = {
 			isa = PBXGroup;
 			children = (
-				CF0174081D7D61DE007217AB /* Apex Supine Early Sys Mur.caf */,
-				CF0174091D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf */,
-				CF01740A1D7D61DF007217AB /* Apex Supine Late Sys Mur.caf */,
-				CF01740B1D7D61DF007217AB /* Apex Supine Mid Sys Click.caf */,
-				CF01740C1D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf */,
-				CF01740D1D7D61DF007217AB /* Apex Supine Single S1 S2.caf */,
-				CF01740E1D7D61DF007217AB /* Apex Supine Split S1.caf */,
+				A77659CF1DA3527B00C2EC81 /* Early Systolic Murmur.caf */,
+				A77659D01DA3527B00C2EC81 /* Holosystolic Murmur.caf */,
+				A77659D11DA3527B00C2EC81 /* Late Systolic Murmur.caf */,
+				A77659D21DA3527B00C2EC81 /* Mid-Systolic Click.caf */,
+				A77659D31DA3527B00C2EC81 /* Mid-Systolic Murmur.caf */,
+				A77659D41DA3527B00C2EC81 /* Single S1 S2.caf */,
+				A77659D51DA3527B00C2EC81 /* Split S1.caf */,
 			);
 			name = "Apex Supine";
 			sourceTree = "<group>";
@@ -274,8 +271,10 @@
 				CD1273D61AA7EBDC00D9D393 /* DetailViewController.swift */,
 				CD1273D81AA7EBDC00D9D393 /* RecordViewController.swift */,
 				CD1273D71AA7EBDC00D9D393 /* NoVoiceSelectedViewController.swift */,
+				A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */,
+				A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */,
 				CF26EF2E1D8414D000930B07 /* OutputViewController.swift */,
-				A77659C91D9E273100C2EC81 /* ConditionViewController.swift */,
+				A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -437,16 +436,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0174151D7D61DF007217AB /* Apex Supine Split S1.caf in Resources */,
 				CD1273ED1AA7EBE300D9D393 /* VoiceTableViewCell.xib in Resources */,
 				CD1273BA1AA7EB5F00D9D393 /* Main.storyboard in Resources */,
-				CF0174121D7D61DF007217AB /* Apex Supine Mid Sys Click.caf in Resources */,
-				CF0174111D7D61DF007217AB /* Apex Supine Late Sys Mur.caf in Resources */,
 				CD1273BF1AA7EB5F00D9D393 /* LaunchScreen.xib in Resources */,
-				CF0174141D7D61DF007217AB /* Apex Supine Single S1 S2.caf in Resources */,
-				CF0174131D7D61DF007217AB /* Apex Supine Mid Sys Mur.caf in Resources */,
-				CF0174101D7D61DF007217AB /* Apex Supine Holo Sys Mur.caf in Resources */,
-				CF01740F1D7D61DF007217AB /* Apex Supine Early Sys Mur.caf in Resources */,
 				CF8682711D65D214000FC9F6 /* normal.mp3 in Resources */,
 				CD1273BC1AA7EB5F00D9D393 /* Images.xcassets in Resources */,
 				CF8682701D65D214000FC9F6 /* innocent.mp3 in Resources */,
@@ -517,7 +509,6 @@
 			files = (
 				CD1273EC1AA7EBE300D9D393 /* VoiceTableViewCell.swift in Sources */,
 				CD1273FF1AA7EBF600D9D393 /* AudioSessionHelper.swift in Sources */,
-				A77659CA1D9E273100C2EC81 /* ConditionViewController.swift in Sources */,
 				CD1273DC1AA7EBDC00D9D393 /* BaseTableViewController.swift in Sources */,
 				CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */,
 				CD1273FB1AA7EBEC00D9D393 /* KMOverlayPresentationController.swift in Sources */,
@@ -529,7 +520,10 @@
 				CF26EF771D86C7AF00930B07 /* LBAudioDetectiveFrame.m in Sources */,
 				CD1273F41AA7EBE800D9D393 /* CoreDataStack.swift in Sources */,
 				CD1273DF1AA7EBDC00D9D393 /* RecordViewController.swift in Sources */,
+				A77659CE1DA346C600C2EC81 /* ApexSupineOutputViewController.swift in Sources */,
 				CF6CF0EE1D8823B7004B91D4 /* FDWaveformView.swift in Sources */,
+				A77659D71DA3672300C2EC81 /* ApexSupineConditionViewController.swift in Sources */,
+				A77659CC1D9E726D00C2EC81 /* ChoiceViewController.swift in Sources */,
 				CD1273EB1AA7EBE300D9D393 /* KMVoiceRecordHUD.swift in Sources */,
 				CD1273F71AA7EBE800D9D393 /* VoiceMemos.xcdatamodeld in Sources */,
 				CD1273E91AA7EBE300D9D393 /* KMCircularProgressView.swift in Sources */,
