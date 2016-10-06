@@ -9,9 +9,13 @@
 import UIKit
 
 class ApexSupineConditionViewController: UIViewController {
-
-    @IBOutlet weak var labelname: UILabel!
+    //Global variables
     var condition = String()
+  
+    //Target connections
+    @IBOutlet weak var labelname: UILabel!
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var labeldetails: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +30,27 @@ class ApexSupineConditionViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         
-        labelname.text = condition
+       detailscond()
+        
+    }
+    
+    
+
+    func detailscond() {
+        if condition == "ApexSupineMSC"{
+                labelname.text = "Mid Systolic Click"
+            //self.image.image = UIImage(named:"ApexSupineMSC")
+                labeldetails.text = " This is a non life threatening disease. It is a lifelong disorder but many people with this condition rarely show symptoms" + "Symptoms occur usually only due to blood regurgitation"+"\n\n"+"Symptoms include:"+"\n"+"1. Racing or irregular heartbeat"+"\n"+"2. Dizziniess/lightheadedness"+"\n"+"3. Difficulty breathing/Shortness of breath when laying flat or during physical activity"+"\n"+"4. Fatigue"+"\n"+"5.Chest pain not caused by coronary artery disease"
+                }
+        else if condition == "Mid-Systolic Murmur"{
+            //self.image.image = UIImage(named:"--------")
+            labelname.text = "Mid-Systolic Murmur"
+            labeldetails.text = "1. Aortic Stenosis" + "\n" + "2. Pulmonic Stenosis" + "\n" + "3. Atrial Septal Defect"
+                }
+        else if condition == "Mid-Systolic Click"{
+            //self.image.image=UIImage(named:"-----"
+           
+        }
         
     }
 
