@@ -14,9 +14,10 @@ import Foundation
 class ApexSupineOutputViewController: UIViewController {
     
     var inputURL : NSURL!
+
     ///TEST ONLY/////
     ////CHANGE AFTER////////
-    var apexsup = "ApexSupineMSC"
+    var apexsup = "AS-MSC"
     var supine = ["Early Systolic Murmur", "Holosystolic Murmur","Late Systolic Murmur", "Mid-Systolic Click","Mid-Systolic Murmur","Single S1 S2","Split S1" ]
     
     //Setting up waveform view and waeform target connection
@@ -32,6 +33,7 @@ class ApexSupineOutputViewController: UIViewController {
     @IBOutlet weak var Diagnosis5: UILabel!
     @IBOutlet weak var Diagnosis6: UILabel!
     @IBOutlet weak var Diagnosis7: UILabel!
+    @IBOutlet weak var diagnosis8: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,20 +54,21 @@ class ApexSupineOutputViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         
-        self.Diagnosis1.text = "TADAH"
-        self.Diagnosis2.text = ""
-        self.Diagnosis3.text = ""
-        self.Diagnosis4.text = ""
-        self.Diagnosis5.text = ""
-        self.Diagnosis6.text = ""
-        self.Diagnosis7.text = ""
+//        self.Diagnosis1.text = ""
+//        self.Diagnosis2.text = ""
+//        self.Diagnosis3.text = ""
+//        self.Diagnosis4.text = ""
+//        self.Diagnosis5.text = ""
+//        self.Diagnosis6.text = ""
+//        self.Diagnosis7.text = ""
+//        
+//        self.WaveformView.audioURL = inputURL
+//        self.WaveformView.progressSamples = 0
+//        self.WaveformView.doesAllowScroll = true
+//        self.WaveformView.doesAllowStretch = true
+//        self.WaveformView.doesAllowScrubbing = false
+//        self.WaveformView.wavesColor = UIColor.blueColor()
         
-        self.WaveformView.audioURL = inputURL
-        self.WaveformView.progressSamples = 0
-        self.WaveformView.doesAllowScroll = true
-        self.WaveformView.doesAllowStretch = true
-        self.WaveformView.doesAllowScrubbing = false
-        self.WaveformView.wavesColor = UIColor.blueColor()
 //
 //        signalCompare(self.supine)
 //    }

@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A704C9F31DA776D3002E43D8 /* ApexLDOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704C9F21DA776D3002E43D8 /* ApexLDOutputViewController.swift */; };
+		A704C9F51DA78185002E43D8 /* ApexLDConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704C9F41DA78185002E43D8 /* ApexLDConditionViewController.swift */; };
+		A704C9F71DA781C6002E43D8 /* AorticSitConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704C9F61DA781C6002E43D8 /* AorticSitConditionViewController.swift */; };
+		A704C9F91DA781F7002E43D8 /* PulmSupineConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A704C9F81DA781F7002E43D8 /* PulmSupineConditionViewController.swift */; };
 		A77659CC1D9E726D00C2EC81 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */; };
 		A77659CE1DA346C600C2EC81 /* ApexSupineOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */; };
 		A77659D71DA3672300C2EC81 /* ApexSupineConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */; };
+		A7F8288B1DAA0B3E006D2F5A /* AorticSitOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8288A1DAA0B3E006D2F5A /* AorticSitOutputViewController.swift */; };
+		A7F8288D1DAA0BF4006D2F5A /* PulmSupineOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8288C1DAA0BF4006D2F5A /* PulmSupineOutputViewController.swift */; };
+		A7F8288F1DAB911D006D2F5A /* PSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F8288E1DAB911A006D2F5A /* PSWebViewController.swift */; };
 		CD1273B51AA7EB5F00D9D393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */; };
 		CD1273BA1AA7EB5F00D9D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1273B81AA7EB5F00D9D393 /* Main.storyboard */; };
 		CD1273BC1AA7EB5F00D9D393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1273BB1AA7EB5F00D9D393 /* Images.xcassets */; };
@@ -77,6 +84,10 @@
 		0588E348A241A320B4A31BFF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2128F1C5D9E45D3DC19FD5ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		96A75660244B2C7958DDEEC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A704C9F21DA776D3002E43D8 /* ApexLDOutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexLDOutputViewController.swift; sourceTree = "<group>"; };
+		A704C9F41DA78185002E43D8 /* ApexLDConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexLDConditionViewController.swift; sourceTree = "<group>"; };
+		A704C9F61DA781C6002E43D8 /* AorticSitConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AorticSitConditionViewController.swift; sourceTree = "<group>"; };
+		A704C9F81DA781F7002E43D8 /* PulmSupineConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulmSupineConditionViewController.swift; path = ../PulmSupineConditionViewController.swift; sourceTree = "<group>"; };
 		A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexSupineOutputViewController.swift; sourceTree = "<group>"; };
 		A77659CF1DA3527B00C2EC81 /* Early Systolic Murmur.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Early Systolic Murmur.caf"; sourceTree = "<group>"; };
@@ -87,6 +98,9 @@
 		A77659D41DA3527B00C2EC81 /* Single S1 S2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single S1 S2.caf"; sourceTree = "<group>"; };
 		A77659D51DA3527B00C2EC81 /* Split S1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Split S1.caf"; sourceTree = "<group>"; };
 		A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApexSupineConditionViewController.swift; sourceTree = "<group>"; };
+		A7F8288A1DAA0B3E006D2F5A /* AorticSitOutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AorticSitOutputViewController.swift; path = ../AorticSitOutputViewController.swift; sourceTree = "<group>"; };
+		A7F8288C1DAA0BF4006D2F5A /* PulmSupineOutputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PulmSupineOutputViewController.swift; path = ../PulmSupineOutputViewController.swift; sourceTree = "<group>"; };
+		A7F8288E1DAB911A006D2F5A /* PSWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSWebViewController.swift; sourceTree = "<group>"; };
 		CD1273AF1AA7EB5F00D9D393 /* VoiceMemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1273B31AA7EB5F00D9D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1273B41AA7EB5F00D9D393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -229,6 +243,7 @@
 				CF86826E1D65D214000FC9F6 /* innocent.mp3 */,
 				CF86826F1D65D214000FC9F6 /* normal.mp3 */,
 				CD1273B81AA7EB5F00D9D393 /* Main.storyboard */,
+				A7F8288E1DAB911A006D2F5A /* PSWebViewController.swift */,
 				CD1273BB1AA7EB5F00D9D393 /* Images.xcassets */,
 				CD1273B21AA7EB5F00D9D393 /* Supporting Files */,
 			);
@@ -273,6 +288,12 @@
 				CD1273D71AA7EBDC00D9D393 /* NoVoiceSelectedViewController.swift */,
 				A77659CD1DA346C600C2EC81 /* ApexSupineOutputViewController.swift */,
 				A77659D61DA3672300C2EC81 /* ApexSupineConditionViewController.swift */,
+				A704C9F21DA776D3002E43D8 /* ApexLDOutputViewController.swift */,
+				A704C9F41DA78185002E43D8 /* ApexLDConditionViewController.swift */,
+				A704C9F61DA781C6002E43D8 /* AorticSitConditionViewController.swift */,
+				A7F8288A1DAA0B3E006D2F5A /* AorticSitOutputViewController.swift */,
+				A704C9F81DA781F7002E43D8 /* PulmSupineConditionViewController.swift */,
+				A7F8288C1DAA0BF4006D2F5A /* PulmSupineOutputViewController.swift */,
 				CF26EF2E1D8414D000930B07 /* OutputViewController.swift */,
 				A77659CB1D9E726D00C2EC81 /* ChoiceViewController.swift */,
 			);
@@ -509,8 +530,12 @@
 			files = (
 				CD1273EC1AA7EBE300D9D393 /* VoiceTableViewCell.swift in Sources */,
 				CD1273FF1AA7EBF600D9D393 /* AudioSessionHelper.swift in Sources */,
+				A704C9F31DA776D3002E43D8 /* ApexLDOutputViewController.swift in Sources */,
+				A704C9F51DA78185002E43D8 /* ApexLDConditionViewController.swift in Sources */,
+				A7F8288B1DAA0B3E006D2F5A /* AorticSitOutputViewController.swift in Sources */,
 				CD1273DC1AA7EBDC00D9D393 /* BaseTableViewController.swift in Sources */,
 				CF26EF751D86C7AF00930B07 /* LBAudioDetective.m in Sources */,
+				A7F8288D1DAA0BF4006D2F5A /* PulmSupineOutputViewController.swift in Sources */,
 				CD1273FB1AA7EBEC00D9D393 /* KMOverlayPresentationController.swift in Sources */,
 				CD1273E01AA7EBDC00D9D393 /* SplitViewController.swift in Sources */,
 				CF26EF2F1D8414D000930B07 /* OutputViewController.swift in Sources */,
@@ -523,9 +548,12 @@
 				A77659CE1DA346C600C2EC81 /* ApexSupineOutputViewController.swift in Sources */,
 				CF6CF0EE1D8823B7004B91D4 /* FDWaveformView.swift in Sources */,
 				A77659D71DA3672300C2EC81 /* ApexSupineConditionViewController.swift in Sources */,
+				A7F8288F1DAB911D006D2F5A /* PSWebViewController.swift in Sources */,
 				A77659CC1D9E726D00C2EC81 /* ChoiceViewController.swift in Sources */,
+				A704C9F91DA781F7002E43D8 /* PulmSupineConditionViewController.swift in Sources */,
 				CD1273EB1AA7EBE300D9D393 /* KMVoiceRecordHUD.swift in Sources */,
 				CD1273F71AA7EBE800D9D393 /* VoiceMemos.xcdatamodeld in Sources */,
+				A704C9F71DA781C6002E43D8 /* AorticSitConditionViewController.swift in Sources */,
 				CD1273E91AA7EBE300D9D393 /* KMCircularProgressView.swift in Sources */,
 				CD1273DD1AA7EBDC00D9D393 /* DetailViewController.swift in Sources */,
 				CD1273F61AA7EBE800D9D393 /* Voice.swift in Sources */,
