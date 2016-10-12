@@ -1,32 +1,37 @@
-VoiceMemos
-============
+Digital Stethoscope App
+======================================================================================
 
-Voice Memos is a voice recorder App for iPhone and iPad that covers some of the new technologies and APIs introduced in iOS 8 written in Swift.
+This is a currently ongoing FYP project by Chris Ch'ng, Jordan O'Callaghan and Stephanie Lim
+under ECSE Department of Monash University Australia. (2016)
 
-![Recording](https://raw.githubusercontent.com/MoZhouqi/VoiceMemos/master/Screenshots/recording.png)
+## Aim
 
-![Preview](https://raw.githubusercontent.com/MoZhouqi/VoiceMemos/master/Screenshots/preview.png)
+ - Audio recording and playback function
+ 
+ - Able to save the audio files recorded
+ 
+ - Compatible with most iOS devices
+ 
+ - Processes heart sound captured with Core Audio
+ 
+ - Filter and amplify heart sound using PCM data
+ 
+ - Classifying processed heart sound with audio fingerprinting 
+ 
+ - Providing information and websearch links to classified heart issues
 
-## Technologies
+ - Compatible with most iOS devices 
 
-- Audio recording and playback
-
-- Adaptive user interface
-
-- All devices and any orientation support
-
-- Multitasking features support on iPad
-
-- UISplitViewController / UISearchController / UIAlertController
-
-- Custom Presentations
-
-- Live and interactive custom views
 
 ## Requirements
-
+(Note: This app is currently only compatible with iOS devices)
 - Xcode 7
 
-## License
 
+## Reference
+ - Audio recording functions are sourced from MoZhouqi (https://github.com/MoZhouqi/VoiceMemos)
+ - Audio fingerprinting library are sourced from Laurin Brandner (https://github.com/lbrndnr/LBAudioDetective)
+
+## Licenses
 VoiceMemos is released under the MIT license. See LICENSE for details.
+LBAudioDetective is licensed under the MIT License.
