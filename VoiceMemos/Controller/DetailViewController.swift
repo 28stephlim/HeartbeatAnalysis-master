@@ -239,7 +239,7 @@ class DetailViewController: UIViewController {
     @IBAction func saveVoiceButtonTapped(sender: AnyObject) {
         updateVoice()
         if voice.filename != nil {
-            delegate?.didFinishViewController(self, didSave: true)
+            delegate?.didFinishViewController(self, didSave: true)  
         } else {
             shakeRecordButton()
         }

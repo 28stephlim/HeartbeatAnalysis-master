@@ -1,28 +1,24 @@
 //
-//  PSWebViewController.swift
+//  ASWebViewController.swift
 //  VoiceMemos
 //
-//  Created by Arnold Yong Cheng Yee on 10/10/2016.
+//  Created by Arnold Yong Cheng Yee on 13/10/2016.
 //  Copyright © 2016 Zhouqi Mo. All rights reserved.
 //
 
 import UIKit
 
-class PSWebViewController: UIViewController {
-
-    @IBOutlet var psweb: UIWebView!
-    var PSweb = String()
+class ASWebViewController: UIViewController {
     
+    @IBOutlet weak var asweb: UIWebView!
+    var ASweb = String ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
- psweb.loadRequest(NSURLRequest(URL: NSURL(string: PSweb)!))
-        
-    
+         asweb.loadRequest(NSURLRequest(URL: NSURL(string: ASweb)!))
     }
- 
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
